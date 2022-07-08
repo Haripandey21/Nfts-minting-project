@@ -31,7 +31,7 @@ export default function Home() {
       setLoading(true);
       await tx.wait();
       setLoading(false);
-      window.alert("You successfully minted a Nft of famous temple!");
+      window.alert("You successfully minted a Nft !! ");
     } catch (err) {
       console.error(err);
     }
@@ -54,7 +54,7 @@ export default function Home() {
       setLoading(true);
       await tx.wait();
       setLoading(false);
-      window.alert("You successfully minted a NFT of famous temple!");
+      window.alert("You successfully minted a NFT !!");
     } catch (err) {
       console.error(err);
     }
@@ -281,12 +281,12 @@ export default function Home() {
       </Head>
       <div className={styles.main}>
         <div>
-          <h1 className={styles.title}>Welcome to Crypto Devs!</h1>
+          <h1 className={styles.title}>Welcome to Nft Minting Platform !!</h1>
           <div className={styles.description}>
             Its an NFT collection for developers in Crypto.
           </div>
           <div className={styles.description}>
-            {tokenIdsMinted}/20 have been minted
+            {tokenIdsMinted}/30 have been minted
           </div>
           {renderButton()}
         </div>
