@@ -5,7 +5,7 @@ export default function handler(req, res) {
       "https://raw.githubusercontent.com/haripandey21/Nfts-minting-project/main/my-app/public/cryptodevs/";
     res.status(200).json({
       name: "Blocks_eater_gift #" + tokenId,
-      description: "One of the famous Temple of Nepal",
-      image: image_url + tokenId + ".jpg",
+      description: "Solidity Logo.Solidity is an object-oriented programming language for implementing smart contracts on various blockchain platforms, most notably, Ethereum",
+      image: image_url + tokenId + ".svg",
     });
   }
